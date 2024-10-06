@@ -1,11 +1,18 @@
-import './App.css'
+import './App.css';
+
+// Components
+import MainNav from './components/MainNav/MainNav';
+import HomePage from './pages/HomePage';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+      <MainNav />
+      <HomePage />
+      <Footer />
+    </>
   )
 }
 
-export default App
+export default App;
