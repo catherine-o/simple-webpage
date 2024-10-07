@@ -12,7 +12,7 @@ const ClientCarouselSm = () => {
 
 const ClientCarouselLg = () => {
   return (
-    <div className="client-carousel-lg w-full lg:w-[85%] max-w-[1050px] sm:my-6 mx-auto">
+    <div className="client-carousel-lg w-full lg:w-[95%] max-w-[1050px] sm:my-6 mx-auto">
       <div className="with-arrows flex items-center gap-10">
         <img
           className="h-10 hidden lg:block cursor-pointer fill-mistralGreyLight"
