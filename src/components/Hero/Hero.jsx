@@ -2,9 +2,9 @@ import Button from "../Button/Button";
 
 const Hero = () => {
   return (
-    <div className="hero h-[70vh] bg-mistralGreyMedium relative">
+    <div className="hero h-[60vh] bg-mistralGreyMedium relative">
       <div className="hero-content h-[400px] p-5 w-full md:w-2/4 flex flex-col gap-4 sm:gap-7 absolute translate-y-1/3 md:translate-y-2/4 sm:translate-x-10 md:translate-x-1/4">
-        <div className="heading text-4xl sm:text-5xl md:text-7xl font-heading font-semibold">
+        <div className="hero-heading text-4xl sm:text-5xl md:text-7xl font-heading font-semibold">
           <h1 className="text-white">Frontier AI in</h1>
           <h1 className="text-mistralOrange">your hands</h1>
         </div>
