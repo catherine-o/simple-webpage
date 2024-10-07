@@ -1,6 +1,8 @@
+// Components
 import Hero from "../components/Hero/Hero";
-import ClientCarouselSm from "../components/ClientCarousel/ClientCarousel";
+import { ClientCarouselSm } from "../components/ClientCarousel/ClientCarousel";
 import Products from "../components/Products/Products";
+import Testimonials from "../components/Testimonials/Testimonials";
 
 const HomePage = () => {
   return (
@@ -8,6 +10,7 @@ const HomePage = () => {
       <Hero />
       <ClientCarouselSm />
       <Products />
+      <Testimonials />
     </>
   )
 };

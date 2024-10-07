@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 // Assets
 import mistralLogo from "../../assets/logoMistral.svg";
 import flagUK from "../../assets/flagUK.png";
-import iconMenu from "../../assets/iconMenu.png";
+import iconMenu from "../../assets/icons/iconMenu.png";
 
 const MainNav = () => {
   return (

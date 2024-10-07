@@ -4,7 +4,7 @@ const Button = ({ classProps, text }) => {
   return (
     <button
       type="button"
-      className={`${classProps} text-white bg-mistralOrange text-nowrap hover:bg-mistralOrange/80 focus:ring-4 focus:outline-none focus:ring-focusOrange/50 rounded-md px-4 py-2`}
+      className={`${classProps} text-white bg-mistralOrange text-nowrap hover:bg-mistralOrange/80 focus:ring-4 focus:outline-none focus:ring-focusOrange/50 rounded-md px-5 py-2`}
     >
       {text}
     </button>

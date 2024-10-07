@@ -1,3 +1,4 @@
+// Components
 import Button from "../Button/Button";
 
 const Hero = () => {
