@@ -1,11 +1,23 @@
-import arrowLeft from "@/assets/icons/arrowLeft.png";
-import arrowRight from "@/assets/icons/arrowRight.png";
+import arrowLeft from "@/assets/icons/arrowLeft.svg";
+import arrowRight from "@/assets/icons/arrowRight.svg";
+import arrowLeftCircle from "@/assets/icons/arrowLeftCircle.png";
+import arrowRightCircle from "@/assets/icons/arrowRightCircle.png";
 import carouselDots from "@/assets/icons/carouselDots.png";
 
 export const ClientCarouselSm = () => {
   return (
-    <div className="client-carousel-sm h-[100px] bg-white">
-    </div >
+    <div className="client-carousel-sm h-[100px] bg-white flex items-center justify-between px-10">
+      <img
+        className="icon-arrow h-5 cursor-pointer fill-mistralGreyLight"
+        src={arrowLeft}
+        alt="Scroll left"
+      />
+      <img
+        className="icon-arrow h-5 cursor-pointer fill-mistralGreyLight"
+        src={arrowRight}
+        alt="Scroll right"
+      />
+    </div>
   )
 };
 
@@ -15,17 +27,21 @@ export const ClientCarouselLg = () => {
       <div className="with-arrows flex items-center gap-10">
         <img
           className="icon-arrow h-10 hidden lg:block cursor-pointer fill-mistralGreyLight"
-          src={arrowLeft}
+          src={arrowLeftCircle}
           alt="Navigate to previous testimonial"
         />
         <div className="card-carousel h-[400px] border rounded grow" />
         <img
           className="icon-arrow h-10 hidden lg:block cursor-pointer fill-mistralGreyLight"
-          src={arrowRight}
+          src={arrowRightCircle}
           alt="Navigate to next testimonial"
         />
       </div>
-      <img className="icon-dots w-[55px] mx-auto lg:hidden" src={carouselDots} alt="Carousel navigation" />
+      <img
+        className="icon-dots w-[55px] cursor-pointer mx-auto lg:hidden"
+        src={carouselDots}
+        alt="Carousel navigation"
+      />
     </div>
   )
 };

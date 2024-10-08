@@ -17,9 +17,9 @@ export const MainNav = () => {
           <a href="news" className="hover:text-mistralOrange">News</a>
           <a href="pricing" className="hover:text-mistralOrange">Pricing</a>
         </div>
-        <img className="h-[20px] w-[32px]" src={flagUK} alt="United Kingdom flag" />
+        <img className="h-[20px] w-[32px] cursor-pointer" src={flagUK} alt="United Kingdom flag" />
         <Button className="hidden sm:block" text="Log In" />
-        <img className="h-[29px] sm:hidden" src={iconMenu} alt="Click to open navigation menu" />
+        <img className="h-[29px] sm:hidden cursor-pointer" src={iconMenu} alt="Click to open navigation menu" />
       </div>
     </div>
   )
