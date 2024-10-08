@@ -1,12 +1,10 @@
-// Components
-import Button from "../Button/Button";
+import { Button } from "@/components";
 
-// Assets
-import mistralLogo from "../../assets/logoMistral.svg";
-import flagUK from "../../assets/flagUK.png";
-import iconMenu from "../../assets/icons/iconMenu.png";
+import mistralLogo from "@/assets/logoMistral.svg";
+import flagUK from "@/assets/flagUK.png";
+import iconMenu from "@/assets/icons/iconMenu.png";
 
-const MainNav = () => {
+export const MainNav = () => {
   return (
     <div className="main-nav bg-mistralBeige flex items-center justify-between px-4 py-3 lg:py-4 antialiased">
       <a href="/">
@@ -20,11 +18,9 @@ const MainNav = () => {
           <a href="pricing" className="hover:text-mistralOrange">Pricing</a>
         </div>
         <img className="h-[20px] w-[32px]" src={flagUK} alt="United Kingdom flag" />
-        <Button classProps="hidden sm:block" text="Log In" />
+        <Button className="hidden sm:block" text="Log In" />
         <img className="h-[29px] sm:hidden" src={iconMenu} alt="Click to open navigation menu" />
       </div>
     </div>
   )
 };
-
-export default MainNav;

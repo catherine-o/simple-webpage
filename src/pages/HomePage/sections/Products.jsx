@@ -1,5 +1,4 @@
-// Components
-import Button from "../Button/Button";
+import { Button } from "@/components";
 
 const Products = () => {
   return (
@@ -13,13 +12,13 @@ const Products = () => {
             <h2 className="card-heading font-heading font-bold text-mistralGreyText text-lg">
               Le Chat_
             </h2>
-            <Button text="Try It Out!" classProps="absolute bottom-10 right-14" />
+            <Button text="Try It Out!" className="absolute bottom-10 right-14" />
           </div>
           <div className="card-product bg-mistralGreyMedium h-[400px] rounded p-8 grow relative">
             <h2 className="card-heading font-heading font-bold text-mistralGreyText text-lg">
               La Plateforme_
             </h2>
-            <Button text="Start Today" classProps="absolute bottom-10 right-14" />
+            <Button text="Start Today" className="absolute bottom-10 right-14" />
           </div>
         </div>
       </div>

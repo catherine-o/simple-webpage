@@ -1,9 +1,5 @@
-import './App.css';
-
-// Components
-import MainNav from './components/MainNav/MainNav';
-import HomePage from './pages/HomePage';
-import Footer from './components/Footer/Footer';
+import { MainNav, Footer } from "@/components";
+import HomePage from "./pages/HomePage/HomePage";
 
 function App() {
   return (
